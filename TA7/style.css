@@ -1,12 +1,17 @@
 body
 {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 #bücherList
 {
     margin-top: 20px;
+}
+button:hover
+{
+    background-color: antiquewhite;
 }

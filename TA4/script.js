@@ -27,10 +27,19 @@ function sumAll(num1, num2)
 
 function sumarNumeros()
 {
+    let firstNumber = document.getElementById("erstNummer").value;
+    let secondNumber = document.getElementById("zweiterNummer").value;
+    if (firstNumber && secondNumber)
+    {
     // Obtiene el valor del texto y las repeticiones desde los inputs
-    const primerNumero = parseInt(document.getElementById("erstNummer").value);
-    const segundoNumero = parseInt(document.getElementById("zweiterNummer").value);
+    const primerNumero = parseInt(firstNumber);
+    const segundoNumero = parseInt(secondNumber);
 
     // Llama a la función reverseString con los valores ingresados por el usuario
     sumAll(primerNumero, segundoNumero);
+    }
+    else
+    {
+        alert('Por favor, ingrese ambos números.');
+    }   
 }

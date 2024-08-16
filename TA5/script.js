@@ -14,6 +14,14 @@ function leapYear(año){
 }
 
 function añoBisiesto(){
-    const año = parseInt(document.getElementById("schaltJahr").value);
-    leapYear(año);
+    let añoInput = document.getElementById("schaltJahr").value;
+    if (añoInput)
+    {
+        const año = parseInt(document.getElementById("schaltJahr").value);
+        leapYear(año);
+    }
+    else
+    {
+        alert('Por favor, ingrese un año.')
+    }
 }

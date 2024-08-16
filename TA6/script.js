@@ -43,11 +43,25 @@ function convertToFahrenheit(temperature)
 function convertirACelsius()
 {
     const temperatura = document.getElementById("temperatur").value;
-    convertToCelsius(temperatura);
+    if (temperatura)
+    {
+        convertToCelsius(temperatura);
+    }
+    else
+    {
+        alert('Por favor, ingresá una temperatura');
+    }
 }
 
 function convertirAFahrenheit()
 {
     const temperatura = document.getElementById("temperatur").value;
-    convertToFahrenheit(temperatura);
+    if(temperatura)
+    {
+        convertToFahrenheit(temperatura);
+    }
+    else
+    {
+        alert('Por favor, ingresá una temperatura');
+    }
 }
