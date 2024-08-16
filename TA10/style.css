@@ -1,0 +1,17 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#zahlenList
+{
+    margin-top: 20px;
+}
+button:hover
+{
+    background-color: antiquewhite;
+}

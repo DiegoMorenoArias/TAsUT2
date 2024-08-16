@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="temperatura">
+        <label for="temperatur">Temperatura:</label>
+        <input type="text" id="temperatur" placeholder="Escribí una temperatura.">
+    </div>
+    <div class="conversiones">
+        <button onclick="convertirACelsius()">Convertir de Fahrenheit a Celsius</button>
+        <button onclick="convertirAFahrenheit()">Convertir de Celsius a Fahrenheit</button>
+    </div>
+
+    <div id="resultado"></div>
+</body>
+</html>

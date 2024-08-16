@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class= "elementos">
+        <h1>Librería</h1>
+        <form id="bibliothek">
+            <label for="título">Título:</label>
+            <input type="text" id="título" required>
+            <label for="autor">Autor:</label>
+            <input type="text" id="autor" required>
+            <button type="button" onclick="añadirLibro()">Añadir libro</button>
+            <button type="button" onclick="eliminarLibro()">Eliminar libro</button>
+            <button type="button" onclick="verLibros()">Ver libros disponibles</button>
+        </form>
+    </div>
+    <div id="bücherList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
